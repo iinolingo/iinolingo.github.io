@@ -1,0 +1,86 @@
+/*
+	Oni Hairston
+*/
+
+body {
+	background-color: #ffe4e1;
+}
+
+nav ul {
+	list-style-type: none;  /*makes it have no more bullet points */
+	margin: 0;
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: DejaVu Sans Mono, monospace;
+}
+nav li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	padding: .5em 1em;
+	outline: #fff double 7px;
+	-webkit-text-stroke: 1px #d57676;
+	
+	/*sourround this in an outline (look up what that is) and then make it cutesy*/
+}
+
+
+h1 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+/*#fdc7c7*/
+main {
+	background-color: white;
+	padding: 2%;
+}
+
+.bio {
+	text-align: left;
+	font-size: 25px;
+	font-family: DejaVu Sans Mono, monospace;
+	margin-top: 3%;
+	margin-left: 25%;
+	margin-right: auto;
+	border: 5px double #e19d9d;
+	width: 25%;
+	
+
+}
+
+.about-photo {
+	display: block;
+	border-radius: 30%;
+	width: 28%;
+	margin-right: 20%;
+	margin-top: 3%;
+	border: 5px double #e19d9d;
+
+}
+
+iframe {
+	width: 600px;
+	height: 500px;
+}
+.box {
+	position: fixed;
+	text-align: center;
+	border: 5px outset #fff;
+	width: 800px;
+	background-color: #fff8e0;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -385px;
+}
+
+
