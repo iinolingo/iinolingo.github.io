@@ -1,0 +1,277 @@
+/*
+	Oni Hairston
+*/
+
+
+/*media viewport for mobile first*/
+
+/*CSS Reset*/
+body, header, nav, main, footer, img, ul
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: linear-gradient(#FFC5BE, #ffe4e1 75%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	margin: 0;
+}
+
+header {
+	top: 0;
+	height: 200px;
+}
+
+header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -50px;
+	width: 50%;
+	padding: 10px;
+	
+}
+
+/*Mobile NAVIGATION LIST*/
+
+
+nav {
+	border: #fff dotted 12px;
+	padding-left: auto;
+	padding-right: auto;
+	margin-top: 25%;
+	margin-bottom: 10%;
+}
+nav ul { 
+	list-style-type: none; 
+	text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+nav ul li {
+	display: block;
+	width: 100%;
+	border-top: 10px solid #fff;
+	padding: 0.5em 0;
+}
+
+nav li {
+	font-size: 4em;
+	font-weight: bold;
+	font-family: DejaVu Sans Mono, monospace;
+}
+
+nav li a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	-webkit-text-stroke: 2.2px #d57676;	
+	
+}
+
+
+main {
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+
+/*index boxes*/
+
+div#box {
+	background-color: #ffc1b9;
+	position: relative;
+	font-family: DejaVu Sans Mono, monospace;
+	border: 10px inset #ff8172;
+	padding: 20px;
+	margin: 30px auto;
+	margin-bottom: 15%;
+	color: #b95b5b;
+}
+
+
+.frame {
+	position: relative;
+	max-width: 450px;
+	margin: 2% auto;
+}
+
+.pic-text {
+	position: absolute;
+	bottom: 0;
+	background-color: #dd8585;
+	color: white;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	font-family: DejaVu Sans Mono, monospace;
+	font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*footer---------------------------------------------*/
+
+footer {
+	display: block;
+}
+
+footer p {
+	font-family: DejaVu Sans Mono, monospace;
+	font-size: 0.75em;
+	text-align: center;
+	bottom: 0;
+	color:#c94f4f;
+	
+}
+
+/*about me---------------------------------------------*/
+
+#mobileBio {
+	color: #ac6565;
+}
+
+.about-photo {
+	display: block;
+	border-radius: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+	border: 15px dotted #e19d9d;
+
+}
+
+hr {
+	height: 12px;
+	background-color: white;
+	margin-bottom: 15px;
+}
+
+/*projects-----------------------------------------------*/
+
+.pTable caption {
+	font-style: italic;
+	font-size: 2em;
+	-webkit-text-stroke: 2.2px #d57676;
+	color: white;
+	text-shadow: 2px 2px 5px #d57676;
+}
+
+.pTable table {
+	display: none; /*this is TEMPORARY learn hwo to make it vertical*/
+	font-family: DejaVu Sans Mono, monospace;
+	width: 75%;
+	font-size: 3em;
+	border-collapse: collapse;
+	border: 15px inset #ffa1a1;
+}
+
+.pTable th {
+	height: 70px;
+}
+
+.pTable th, td {
+	text-align: center;
+}
+
+#box a {
+	text-align: center; 
+	text-decoration: none;
+	font-size: 5em;
+	-webkit-text-stroke: 2.2px #d57676;
+	color: white;
+	text-shadow: 2px 5px 5px #d57676;
+}
+
+/*Favorites page-----------------------------*/
+
+div#fave-box {
+	background-color: #ffc1b9;
+	position: relative;
+	font-family: DejaVu Sans Mono, monospace;
+	border: 10px inset #ff8172;
+	padding: 10px;
+	margin: 30px auto;
+	margin-bottom: 15%;
+	-webkit-text-stroke: 2.2px #d57676;
+	text-shadow: 2px 5px 5px #d57676;
+	color: white;
+	font-size: 5em;
+	text-align: center;
+}
+
+.tablet-desktop {
+	display: none;
+}
+
+.mobile {
+	display: block;
+}
+
+.mobile p {
+	font-size: 3em;
+	text-align: center;
+}
+
+/*Media viewport for tablet*/
+
+/*
+@media screen and (min-width: 630px), print {
+	
+	.tablet-desktop {
+		display: block;
+	}
+	
+	.mobile {
+		display: none;
+	}
+	
+	
+
+	header {
+		padding: 2%;
+	}
+
+	header img {
+		width: 30%;
+	}
+
+	nav {
+		margin-top: 0;
+	}
+
+	nav ul {
+		margin-bottom: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	nav li {
+		display: -webkit-inline-box;
+		font-size: 2em;
+		padding: 0.5em 1em;
+	}
+
+*/
+
+/*
+@media screen and (min-width: 1015px), print {
+
+	header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+    }
+
+	header img {
+		width: 40%;
+	
+	}
+
+}
